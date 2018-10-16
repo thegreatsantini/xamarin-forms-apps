@@ -1,5 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.StackLayout">
-    <ContentPage.Content>
-    </ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    Padding="0, 30, 0, 0"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.StackLayout"
+    >
+    <!--<StackLayout
+        Orientation="Horizontal"
+        Padding="40, 20, 40, 20"
+        Spacing="10"
+        BackgroundColor="Blue"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        > 
+        <StackLayout>
+            <Image Source="https://via.placeholder.com/100x100" />
+            <Label Text="Label 1" BackgroundColor="Silver"/>
+        </StackLayout>
+       <Label Text="Label 2" BackgroundColor="Silver"/>
+       <Label Text="Label 3" BackgroundColor="Silver"/>
+    </StackLayout>-->
 </ContentPage>
