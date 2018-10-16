@@ -21,7 +21,7 @@
         
         <Label
             Text="{Binding Value, 
-            StringFormat='Slider Value {0:F2}'
+            StringFormat='Font Size: {0:F2}'
             }"
                />
         <Slider
