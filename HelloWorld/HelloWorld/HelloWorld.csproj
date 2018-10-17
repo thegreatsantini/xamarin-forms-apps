@@ -15,9 +15,11 @@
   <ItemGroup>
     <EmbeddedResource Remove="MyPage.xaml" />
     <EmbeddedResource Remove="MainPage.xaml" />
+    <EmbeddedResource Remove="GridLayoutExercise2.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MyPage.xaml.cs" />
     <Compile Remove="MainPage.xaml.cs" />
+    <Compile Remove="GridLayoutExercise2.xaml.cs" />
   </ItemGroup>
 </Project>
