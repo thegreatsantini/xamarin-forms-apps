@@ -11,7 +11,7 @@ namespace HelloWorld
         {
             InitializeComponent();
 
-            MainPage = new RelativeLayout();
+            MainPage = new RelativeExercise();
         }
 
         protected override void OnStart()
