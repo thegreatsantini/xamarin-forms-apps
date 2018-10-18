@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns:local="clr-namespace:MarkupExtensions; assembly=HelloWorld"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.LoadingScreen"
+    BackgroundColor="Black">
+    <AbsoluteLayout>
+        <ActivityIndicator Color="White"
+                           IsRunning="{ Binding Source={x:Reference image}, Path=isLoading }" 
+                           AbsoluteLayout.LayoutBounds="0.5, 0.5, 100,100"
+                           AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <Image  x:Name="image" Aspect="AspectFill"
+                    AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All"
+                    Source="{ local:EmbeddedImages
+                              ResourceId=HelloWorld.Images.background.jpg
+                    }"/>            
+    </AbsoluteLayout>
+</ContentPage>

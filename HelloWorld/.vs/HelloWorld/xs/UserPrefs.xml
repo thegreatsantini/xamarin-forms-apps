@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{A989A242-8894-43E1-872C-713D42331464}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/obj/Debug/netstandard2.0/RelativeExercise.xaml.g.cs">
-    <Files>
-      <File FileName="HelloWorld/RelativeLayout.xaml" Line="28" Column="1" />
-      <File FileName="HelloWorld/RelativeExercise.xaml" Line="20" Column="48" />
-      <File FileName="HelloWorld/obj/Debug/netstandard2.0/RelativeExercise.xaml.g.cs" Line="26" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.HelloWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B19CDFF9-0662-417D-9125-47C44BF2F929" automaticSigning="False" />

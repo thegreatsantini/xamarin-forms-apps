@@ -22,4 +22,14 @@
     <Compile Remove="MainPage.xaml.cs" />
     <Compile Remove="GridLayoutExercise2.xaml.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="MarkupExtensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\background.jpg" />
+  </ItemGroup>
 </Project>
