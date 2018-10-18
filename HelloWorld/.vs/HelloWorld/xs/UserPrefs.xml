@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{A989A242-8894-43E1-872C-713D42331464}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/AbsoluteExercise2.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/RelativeLayout.xaml">
     <Files>
-      <File FileName="HelloWorld/AbsoluteLayout.xaml" Line="22" Column="1" />
-      <File FileName="HelloWorld/AbsoluteExercise2.xaml" Line="5" Column="246" />
+      <File FileName="HelloWorld/RelativeLayout.xaml" Line="6" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
