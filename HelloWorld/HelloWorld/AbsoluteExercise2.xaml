@@ -2,11 +2,40 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld.AbsoluteExercise2"
              >
     <AbsoluteLayout >
-        <Image Source="http://lorempixel.com/output/nature-q-c-1920-1080-5.jpg" 
+        <Image Source="https://hdqwalls.com/download/maldives-tl-1125x2436.jpg" 
                Aspect="AspectFill" 
                AbsoluteLayout.LayoutBounds="0,0,1,1"
                AbsoluteLayout.LayoutFlags="All"
                />
         
+        <Label Text="Relax" TextColor="White" FontSize="30" HorizontalOptions="Center"
+               AbsoluteLayout.LayoutBounds="0, 30, 1, 50" 
+               AbsoluteLayout.LayoutFlags="WidthProportional" 
+               />
+        
+        <BoxView Color="Black" Opacity="0.50"
+                 AbsoluteLayout.LayoutBounds="0, 1, 1, 100" 
+                 AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+                 />
+            
+            
+        <StackLayout Orientation="Horizontal" 
+                     Padding="30, 0"
+                     AbsoluteLayout.LayoutBounds="0, 1, 1, 100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional">
+            
+           <Label Text="Profile" Font="15"  TextColor="White"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                   />
+            <Label Text="Meditate" Font="15" TextColor="White"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   />
+            <Label Text="Themes" Font="15" TextColor="White"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   />
+        </StackLayout>
     </AbsoluteLayout>
 </ContentPage>

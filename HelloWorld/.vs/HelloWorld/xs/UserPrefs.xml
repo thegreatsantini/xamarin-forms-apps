@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{A989A242-8894-43E1-872C-713D42331464}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/GridExercise1.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/AbsoluteExercise2.xaml">
     <Files>
-      <File FileName="HelloWorld/GridExercise1.xaml" Line="30" Column="85" />
-      <File FileName="HelloWorld/GridLayout.xaml" Line="18" Column="34" />
-      <File FileName="HelloWorld/GridExercise2.xaml" Line="25" Column="29" />
+      <File FileName="HelloWorld/AbsoluteLayout.xaml" Line="22" Column="1" />
+      <File FileName="HelloWorld/AbsoluteExercise2.xaml" Line="5" Column="246" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.HelloWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.515D27AF-A009-4DE9-AEB0-5C917413320C" />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B19CDFF9-0662-417D-9125-47C44BF2F929" automaticSigning="False" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
