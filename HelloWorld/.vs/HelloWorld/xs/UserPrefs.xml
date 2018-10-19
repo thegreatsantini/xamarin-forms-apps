@@ -1,9 +1,17 @@
 ﻿<Properties StartupConfiguration="{A989A242-8894-43E1-872C-713D42331464}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/LoadingScreen.xaml">
+    <Files>
+      <File FileName="HelloWorld/LoadingScreen.xaml.cs" Line="14" Column="88" />
+      <File FileName="HelloWorld/LoadingScreen.xaml" Line="18" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node />
+          <Node name="HelloWorld" expanded="True">
+            <Node name="HelloWorld" expanded="True">
+              <Node name="LoadingScreen.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
