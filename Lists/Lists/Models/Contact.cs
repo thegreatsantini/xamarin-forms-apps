@@ -1,10 +1,10 @@
 ﻿using System;
 namespace Lists.Models
 {
-    public class Contacts
+    public class Contact
     {
-        public Contacts()
-        {
-        }
+        public string Name { get; set; }
+        public string Status { get; set; }
+        public string ImageUrl { get; set; }
     }
 }
