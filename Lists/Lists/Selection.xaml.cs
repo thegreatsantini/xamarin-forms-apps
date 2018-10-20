@@ -40,6 +40,7 @@ namespace Lists
         void Handle_Refreshing(object sender, System.EventArgs e)
         {
             listView.ItemsSource = GetContacts();
+            listView.EndRefresh();
         }
 
         //void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
