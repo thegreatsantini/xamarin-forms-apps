@@ -25,7 +25,7 @@ namespace Lists
             if (String.IsNullOrWhiteSpace(query))
                 return contacts;
 
-            return contacts.Where( contact => contact.Name.StartsWith(query));
+            return contacts.Where( contact => contact.Name.StartsWith(query) );
         }
 
         public SearchBar()

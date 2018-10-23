@@ -7,6 +7,7 @@ namespace Lists.Models
     {
         public string Title { get; set; }
         public string ShortTitle{ get; set; }
+        public object Name { get; internal set; }
 
         public ContactGroup(string title, string shortTitle)
         {

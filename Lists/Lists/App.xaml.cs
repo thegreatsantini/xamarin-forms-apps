@@ -11,7 +11,7 @@ namespace Lists
         {
             InitializeComponent();
 
-            MainPage = new SearchBar();
+            MainPage = new ListsExercise();
         }
 
         protected override void OnStart()
