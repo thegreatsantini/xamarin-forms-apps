@@ -11,7 +11,7 @@ namespace Lists.Models
         {
             get
             {
-                return String.Format("{0 - {1}", CheckIn.ToString("MMM d, yyyy"), CheckOut.ToString("MMM d, yyyy"));
+                return String.Format("{0} - {1}", CheckIn.ToString("MMM d, yyyy"), CheckOut.ToString("MMM d, yyyy"));
             }
         }
 
